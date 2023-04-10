@@ -1,0 +1,259 @@
+<html lang="en">
+<head>
+
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Итоговая работа</title>
+ <script src="https://use.fontawesome.com/0da539d52e.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+  
+    <div class="container str1 bg1">
+        
+        <div class="row design">
+            <div class="col-2">
+                <img class="img1" src="./img/LF.png">
+            </div>
+             <div class="offset-6 col-4">
+                <div class="sots">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#str2">О НАС</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#str3">ПРОЕКТ</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#str4">ЦЕНЫ</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#str5">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="h1 textwh ">ФАБРИКА САЙТОВ</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            
+            <div class="offset-3 col-6 offset-3 content-center whois">
+
+              <p class="h2 okursewhite">Проверьте имя будущего сайта</p>
+                <form action="whois.php" method="post">
+                    <input type="text" class="inp" name="ip" size="35"><br>
+                    <input type="submit" class="btn-1" value="Проверить" value="">
+                </form>
+                <span class="h2 okursewhite"><?php echo $hello; ?></span>
+            </div>
+        </div>
+    </div>
+<div id="str2"class="container str2">
+        <div class="row">
+            <div class="col-12">
+                <p class="h2 okurse">Почему мы?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 offset-1">
+                <p class="H3 text3">Мы знаем, каково это-начинать с малого, имея большие планы.</p>
+                <p class="text4">Независимо от типа Вашего бизнеса или уровня опыта, у нас есть идеи, которые помогут Вам привлечь клиента. Визитка в сети позволит тратить меньше усилий на маркетинг и больше времени на развитие своего бизнеса.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="offset-1 col-5 offset-1 ">
+                <div class="card card1" style="width: 15rem;">
+                    <img class="card-img-top" src='./img/200.png' onmouseover="this.src='./img/2001.png';" onmouseout="this.src='./img/200.png';" />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Универсально</h5>
+                        <p class="card-text text-center">Мы оперируем предварительно построенными темплейтами, готовыми сегментами и автоматизацией, что позволяет сделать сайт быстро, качественно и недорого.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="card card1" style="width: 15rem;">
+                    <img class="card-img-top" src='./img/300.png' onmouseover="this.src='./img/3001.png';" onmouseout="this.src='./img/300.png';" />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Уникально</h5>
+                        <p class="card-text text-center">Мы не забываем об индивидуальности наших работ и стараемся учитывать все пожелания клиентов, создавая неповторимое лицо для каждого.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   <div id="str3" class="container str1 bg2">
+        <div class="row">
+            <div class="col-12">
+                <p class="h2 okurse">Этапы разработки проекта</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-10 offset-1">
+                <p class="text4">Процесс отлажен до мелочей поэтому на создание страницы-визитки требуется в среднем 1-3 рабочих дня, а на создание небольшого интернет-магазина 3-5 рабочих дней.</p>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="offset-1 col-10 whois slider">
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                            <div class="item_col">
+                            <h2>Профессиональная консультация</h2>
+                            <h3>На начальном этапе наша задача выявление Ваших потребностей и целей, консультация, заполнения брифа, согласование макета будущего сайта</h3> 
+              
+                            </div>        
+                            <img src="img/speech1.png" alt="">
+                            <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Создание дизайна</h2>
+                           <h3>Наш дизайнер, опираясь на существующие наработки, внедряет актуальный для Вас мультимедийным  контент, создавая уникальный внешний вид страницы.</h3> 
+                           
+                        </div>           
+                        <img src="img/design.png" alt="">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Контентное наполнение</h2>
+                           <h3>После того как дизайн согласован, сайт наполняется текстовой и контактной информацией, модулями и виджетами.</h3> 
+                           
+                        </div>           
+                        <img src="img/gear.png" alt="">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+
+                    <div class="item">
+                        <a class="previous" onclick="previousSlide()">&#10094;</a>
+                        <div class="item_col">
+                           <h2>Размещение и поддержка</h2>
+                           <h3>Сайт публикуется на хостинг и начинает работать. Наша работа сделана. Но мы можем продолжать обслуживать его, или можем научить этому Вас.</h3> 
+                          
+                        </div>           
+                        <img src="img/laptop.png" alt="">
+                        <a class="next" onclick="nextSlide()">&#10095;</a>
+                    </div>
+        
+                    <div class="arrow_mobile">
+                        <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+                        <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+                    </div>
+        
+            </div>  
+       </div> 
+    </div> 
+
+<div id="str4"class="container str2">
+        <div class="row">
+            <div class="col-12">
+                <p class="h2 okurse">Цены</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="text4">У нас нет предоплаты, в платите только за результат который видите своими глазами</p>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-5 text3">
+            <p class="H3 text4">Сайт под ключ</p>  
+        </div>  
+            <div class="col-5 text3">
+            <p class="H3 text4">Интернет-магазин</p>  
+        </div>  
+        </div>  
+
+        <div class="row">
+            <div class="col-5 text3">
+            <img class="card-img-top2" src='./img/rweb.png'onmouseover="this.src='./img/web.png';" onmouseout="this.src='./img/rweb.png';"/>
+            </div>
+             <div class="offset-2 col-5 text3">
+            <img class="card-img-top2" src='./img/rwebim.png'onmouseover="this.src='./img/webim.png';" onmouseout="this.src='./img/rwebim.png';"/>
+            </div>
+            <div class="H2 col-5 text3">
+                <script type="text/javascript">
+                    var a = 100 
+                    var b = <?php print $hel; ?>
+                    var c =a*b
+                    document.write(c+" руб.")     
+                </script>
+                
+            </div>
+
+            <div class="H2 offset-2 col-5 text3">
+                <script type="text/javascript">
+                    var a = 300 
+                    var b = <?php print $hel; ?>
+                    var c =a*b
+                    document.write(c+" руб.")     
+                </script>
+                 
+            </div>
+            <div class="row" style="margin-top: 20px;">
+            <div class="col-12">
+                <p class="H4 text4">Доменное имя в зоне .RU и хостинг в подарок.</p>
+            </div>
+            </div>
+        </div>
+       
+    </div>
+
+<div id="str5" class="container str1 bg3">
+        <div class="row">
+            <div class="col-12"> <p class="h2 okurse">Форма обратной связи</p>
+                <p class="text4">Оставьте заявку воспользовавшись формой обратной связи , мы перезвоним сразу после обработки данных.</p>
+  <!--Данные введенные пользователем обрабатываются кодом в mail.php-->
+  <form class="offset-2 col-8 content-center whois" action="./mail.php" method="post">
+  <!--Тег используется для группировки связанных элементов в форме-->
+  <fieldset>
+  <!--Тег задает заголовок для групповых элементов-->
+  
+  <p class="text6">Ваше имя:</p>
+  <!--Устанавливает однострочное текстовое поле ввода:-->
+  <input type="text" name="name"><br>
+  <!--Используется для полей ввода, которые должны содержать адрес электронной почты.-->
+  <p class="text6">E-mail:</p>
+  <input type="text" name="email"><br>
+  <p class="text6">Номер телефона:</p>
+  <input type="text" name="phone"><br>
+  <p class="text6">Сообщение:</p>
+
+  <textarea rows="10" cols="45" name="message"></textarea><br>
+  <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
+  <input type="submit" class="btn-1" value="Отправить сообщение">
+  </fieldset>
+  </form>
+  </div></div></div>
+        <div class="container content-center bottom1">
+            <div class="row pt-2">
+                <div class="col-10 offset-1">
+                    <p>© Изготовлено Фабрикой сайтов в 2023 году <br>
+                    <span class="copyright">Авторский проект, все права защищены</span></p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+ <script src="script.js"></script>       
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
